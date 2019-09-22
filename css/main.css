@@ -7,35 +7,78 @@ body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     justify-content: space-between;
     min-height: 100vh;
+    min-width: 300px;
     width: 100%;
 }
 
 main {
     align-items: center;
     display: flex;
-    justify-content: space-around;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: auto 2rem;
-    flex-wrap: wrap;
     width: 100%;
+    min-height: 500px;
 }
 
-main p {
-    max-width: 600px;
-    margin: 2rem;
-    text-align: justify;
-    text-justify: inter-word;
+a {
+    color: currentColor;
+    text-decoration: none;
 }
 
 main img {
     margin: 2rem;
     max-width: 80%;
-    margin-bottom: 4rem;
 }
 
 footer {
     background-color: #222620;
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
     text-align: center;
     width: 100%;
+}
+
+.bubbles {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.bubbles a {
+    align-items: center;
+    background-color: #33373a;
+    border-radius: 100%;
+    display: block;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    margin: 1rem;
+    width: 80px;
+}
+
+.bubbles a img {
+    height: auto;
+    max-height: 64px;
+    max-width: 64px;
+    width: auto;
+}
+
+.links {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer a {
+    margin: 1rem;
+}
+
+.links a {
+    margin: 1rem;
 }
