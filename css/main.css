@@ -82,3 +82,16 @@ footer a {
 .links a {
     margin: 1rem;
 }
+
+a:hover {
+    transform: translateY(-2px);
+}
+
+a:active {
+    transform: translateY(2px);
+}
+
+a {
+    transition: 0.1s ease-out;
+    transition-property: transform;
+}
