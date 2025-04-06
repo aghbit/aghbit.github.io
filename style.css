@@ -287,3 +287,10 @@ footer{
   }
   
 
+#management {
+    background-color: #f8f9fa;
+  }
+  
+  #management h2 {
+    font-weight: 500;
+  }
