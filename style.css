@@ -223,10 +223,16 @@ footer{
       -webkit-transform: translateY(0%);
     }
   }
+
+
   .col-sm-4 {
     text-align: center;
     font-size: large;
   }
+
+
+
+
   @media screen and (max-width: 768px) {
     h2{
       text-align: center;
@@ -259,14 +265,32 @@ footer{
       left:100%;
     }
   }
+
+
+
   .kotek {
     border: 10px solid transparent;
     margin-bottom: 25px;
-    width: 80%;
-    height: 80%;
+    width: 14rem;
+    height: 14rem;
+    object-fit: cover;
     opacity: 0.8;
   }
   .kotek:hover {
     border-color: #86000044;
     opacity: 1;
+  }
+
+
+  #work {
+    margin-bottom: 8rem;
+  }
+  
+
+#management {
+    background-color: #f8f9fa;
+  }
+  
+  #management h2 {
+    font-weight: 500;
   }
